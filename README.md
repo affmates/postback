@@ -24,7 +24,7 @@ This function will get Refresh Token for Advertiser
 ```php
 $curl = curl_init();
 
-$httpHeader = ["username"=>"_APP_KEY_","password"=>"_APP_SECRET_"];
+$httpHeader = ["username:APP_KEY_","password:APP_SECRET_","Content-Type:application/json"];
 ....
 curl_setopt($curl, CURLOPT_URL, "https://postback.affmates.com/adv/token");
 curl_setopt($curl, CURL_HTTPHEADER, $httpHeader);
