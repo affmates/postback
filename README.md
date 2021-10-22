@@ -26,7 +26,7 @@ $curl = curl_init();
 
 $httpHeader = ["username"=>"_APP_KEY_","password"=>"_APP_SECRET_"];
 ....
-curl_url($curl, "https://postback.affmates.com/adv/token");
+curl_setopt($curl, CURLOPT_URL, "https://postback.affmates.com/adv/token");
 curl_setopt($curl, CURL_HTTPHEADER, $httpHeader);
 .....
 $response = curl_exec($curl);
