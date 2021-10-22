@@ -7,6 +7,9 @@ This package provides a
 simple API to connect with affmates server. To learn all about it please check  document and demo files included
 
 Here are a few short examples of what you can do:
+
+Flow: get token ---> authorization --> put data
+
 ### 1. Authentication - Generate token
 ```
 POST /adv/token HTTP/1.1
