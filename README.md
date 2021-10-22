@@ -65,6 +65,7 @@ Response can be:
 + Content-Type: application/json
 + Authorization: Bear _TOKEN_
 + TOKEN received from Authentiaction
+
 <strong>Body Request:</strong>
 #### For Lead data (CPA, CPI, CPL)
 ```
