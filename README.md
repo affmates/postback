@@ -4,7 +4,7 @@
 #### Version: 1.0
 
 This package provides a
-simple API to connect with affmates server. To learn all about it please check all document and demo files included
+simple API to connect with affmates server. To learn all about it please check  document and demo files included
 
 Here are a few short examples of what you can do:
 ### 1. Authentication
@@ -15,7 +15,8 @@ username: _APP_KEY_
 password: _APP_SECRET_
 Content-Type: multipart/form-data;
 ```
-This function will get Refresh Token for advertiser
+This function will get Refresh Token for Advertiser
+- APP_KEY and APP_SECRET will provide for Advertiser by email
 - Token will expried after 10 days
 - Advertiser can request a lifetime token
 
