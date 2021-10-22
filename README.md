@@ -7,7 +7,7 @@ This package provides a
 simple API to connect with affmates server. To learn all about it please check  document and demo files included
 
 Here are a few short examples of what you can do:
-### 1. Authentication
+### 1. Authentication - Generate token
 ```
 POST /adv/token HTTP/1.1
 Host: postback.affmates.com
@@ -64,7 +64,7 @@ Response can be:
 <strong>Header</strong>
 + Content-Type: application/json
 + Authorization: Bear _TOKEN_
-
++ TOKEN received from Authentiaction
 <strong>Body Request:</strong>
 #### For Lead data (CPA, CPI, CPL)
 ```
