@@ -1,10 +1,15 @@
 <?php
 include 'function.php';
+$publisherClickId = "12345677";
+
 //Post 1 item
+/** If use cookie to store publisher click id
 $publisherClickId = $_COOKIE['afm_net']??'';    //Get publisher click id from cookie
 if(!$publisherClickId){
     return;
 }
+**/
+
 $postData = [
     'leadid'=>'12322344',                           //conversionid - IMPORTANT - REQUIRED
     'create_time'=> '2021-10-21 12:45:00',      //Y-m-d H:i:s  - REQUIRED
