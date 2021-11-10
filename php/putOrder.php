@@ -1,6 +1,11 @@
 <?php
 include 'function.php';
 //Post Order
+$publisherClickId = $_COOKIE['afm_net']??'';    //Get publisher click id from cookie
+if(!$publisherClickId){
+    return;
+}
+
 $postData = [
     'conversion_id' => 'ORD001',                //Order Code
     'create_time'=>  '2021-10-21 12:45:00',     //Y-m-d H:i:s
