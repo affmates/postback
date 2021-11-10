@@ -1,10 +1,12 @@
 <?php
 include 'function.php';
 //Post Order
+/** If use cookie to store publisher click id
 $publisherClickId = $_COOKIE['afm_net']??'';    //Get publisher click id from cookie
 if(!$publisherClickId){
     return;
 }
+**/
 
 $postData = [
     'conversion_id' => 'ORD001',                //Order Code
