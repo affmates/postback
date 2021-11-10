@@ -1,10 +1,14 @@
 <?php
 include 'function.php';
 //Post 1 item
+$publisherClickId = $_COOKIE['afm_net']??'';    //Get publisher click id from cookie
+if(!$publisherClickId){
+    return;
+}
 $postData = [
     'leadid'=>'12322344',                           //conversionid - IMPORTANT - REQUIRED
     'create_time'=> '2021-10-21 12:45:00',      //Y-m-d H:i:s  - REQUIRED
-    'publisher_click_id'=> 'A102942ja',         //Click iD     - IMPORTANT - REQUIRED
+    'publisher_click_id'=> $publisherClickId,   //Click iD     - IMPORTANT - REQUIRED
     'payout' => 1000,                           //Payout       - Optional
     'amount' => 200000,                         //Customer Register amount - Optional
     'campaign' => 'Campaign1',                  //Optional
