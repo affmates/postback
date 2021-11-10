@@ -1,6 +1,5 @@
 <?php
 include 'function.php';
-
 $publisherClickId = "12345677";
 //Post Order
 /** If use cookie to store publisher click id
