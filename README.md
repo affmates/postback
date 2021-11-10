@@ -12,7 +12,8 @@ Here are a few short examples of what you can do:
 2. Need to store {publisher_click_id} in your system (by client cookie, session or cache). Recommendations: <strong>Cookie</strong>
 3. Simple way to make cookie:  include affmates js file: https://postback.affmates.com/js/app.min.js or pull it from github to your server
 4. Cookie name is: afm_net - store {publisher_click_id}
-5. Give the {publisher_click_id} back it to affmates by postback - Put Data.
+5. Customer complete action (make a purchase, qualified lead, register form, etc)
+6. Give the {publisher_click_id} back it to affmates by postback - Put Data.
 
 ============================================================================
 
