@@ -1,5 +1,7 @@
 <?php
 include 'function.php';
+
+$publisherClickId = "12345677";
 //Post Order
 /** If use cookie to store publisher click id
 $publisherClickId = $_COOKIE['afm_net']??'';    //Get publisher click id from cookie
@@ -11,7 +13,7 @@ if(!$publisherClickId){
 $postData = [
     'conversion_id' => 'ORD001',                //Order Code
     'create_time'=>  '2021-10-21 12:45:00',     //Y-m-d H:i:s
-    'publisher_click_id' => '1223214',
+    'publisher_click_id' => $publisherClickId,
     'customer'  =>  'NEW',                      //Customer name or customer type: NEW, EXSITING ...
     'items'=>[
         [ 
