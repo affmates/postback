@@ -1,5 +1,5 @@
 string token = "_TOKEN_";
-var client = new RestClient("http://postback.affmates.local/adv/conversion");
+var client = new RestClient("https://postback.affmates.com/adv/conversion");
 var request = new RestRequest(Method.PUT);
 request.AddHeader("cache-control", "no-cache");
 request.AddHeader("content-type", "application/json");
