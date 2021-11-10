@@ -15,7 +15,7 @@ Here are a few short examples of what you can do:
 5. Customer complete action (make a purchase, qualified lead, register form, etc)
 6. Give the {publisher_click_id} back it to affmates by postback - Put Data.
 
-============================================================================
+==========================================================================
 
 Flow: get token ---> authorization --> put data
 ### 1. Authentication - Generate token
