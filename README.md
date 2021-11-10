@@ -8,7 +8,7 @@ simple API to connect with affmates server. To learn all about it please check  
 Here are a few short examples of what you can do:
 
 ### NOTE BEFORE PUT DATA:
-1. Need to make tracking link like this: http(s)://yourwebsite.com/?utm_source=affmates&utm_param={publisher_click_id}
+1. Need to make tracking link like: http(s)://yourwebsite.com/?utm_source=affmates&utm_param={publisher_click_id}
 2. Need to store {publisher_click_id} in your system (by client cookie, session or cache). Recommendations: <strong>Cookie</strong>
 3. Simple way to make cookie:  include affmates js file: https://postback.affmates.com/js/app.min.js or pull it from github to your server
 4. Cookie name is: afm_net - store {publisher_click_id}
